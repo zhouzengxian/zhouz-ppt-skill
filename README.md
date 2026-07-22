@@ -11,7 +11,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-ff5a8a.svg)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Win%20%7C%20macOS%20%7C%20Linux-6ec5ff.svg)]()
 [![No Build](https://img.shields.io/badge/build-none%20(double--click%20to%20run)-ffd166.svg)]()
-[![Agents](https://img.shields.io/badge/works%20with-CodeBuddy%20%7C%20Claude%20Code%20%7C%20Codex%20%7C%20more-0d1430.svg)]()
+[![Agents](https://img.shields.io/badge/works%20with-CodeBuddy%20%7C%20Claude%20Code%20%7C%20Codex%20%7C%20WorkBuddy%20%7C%20more-0d1430.svg)]()
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ## 这是什么
 
-**zhouz-ppt-skill** 是一套面向 AI 编程助手（CodeBuddy / Claude Code / Codex / CodeBuddy / 任何读 markdown 的 agent）的**幻灯片生成技能**。
+**zhouz-ppt-skill** 是一套面向 AI 编程助手（CodeBuddy / Claude Code / Codex / WorkBuddy / 任何读 markdown 的 agent）的**幻灯片生成技能**。
 
 给它一份 Markdown、一个文件夹、一个 URL，或一段 agent 回答，它会：
 
@@ -37,7 +37,7 @@
 - 📑 **12 种幻灯片类型** — 封面 / 章节 / 目录 / 数据 / 卡片网格 / 时间线 / 对比 / 引用 / 图片 / 结束… 覆盖路演与教学全场景。
 - 📄 **双产物** — 可翻页交互 HTML + 可分发的高保真 PDF（矢量，文字可选）。
 - 🈶 **中文优先排版** — Noto Serif SC 标题、Noto Sans SC 正文，中文断行与层级专门调优。
-- 🧩 **多 Agent 兼容** — 提供 `SKILL.md`（CodeBuddy/通用）、`CLAUDE.md`（Claude Code）、`AGENTS.md`（Codex）三种入口。
+- 🧩 **多 Agent 兼容** — 提供 `SKILL.md`（CodeBuddy / WorkBuddy / 通用）、`CLAUDE.md`（Claude Code）、`AGENTS.md`（Codex）三种入口。
 - 🖥️ **跨平台导出** — Windows (PowerShell) / macOS / Linux (bash) 全覆盖；另有 Playwright 图片版 PDF 与 iOS 微信兼容方案。
 - ⚡ **零依赖、无构建** — 纯 HTML/CSS/JS，双击 `index.html` 即预览，不装任何东西。
 - 🎨 **可定制** — 改 `style.css` 的 `:root` 变量即可换色，改 `slides.js` 即换内容。
@@ -80,9 +80,9 @@ bash ../scripts/export-pdf.sh . deck 8000     # macOS / Linux
 
 本技能**不绑定任何单一 agent**。它本质上是一份结构化的 markdown 指令 + 资产文件，任何能读 markdown 并操作文件的 AI 编程助手都能用。
 
-### CodeBuddy / CodeBuddy
+### CodeBuddy / WorkBuddy
 
-把整个文件夹放到 `.codebuddy/skills/zhouz-ppt-skill/`，它会自动读取 `SKILL.md`（带 frontmatter）：
+把整个文件夹放到 `.codebuddy/skills/zhouz-ppt-skill/`（WorkBuddy 放到对应的 skills 目录），它会自动读取 `SKILL.md`（带 frontmatter）：
 
 ```bash
 cp -r zhouz-ppt-skill ~/.codebuddy/skills/zhouz-ppt-skill
