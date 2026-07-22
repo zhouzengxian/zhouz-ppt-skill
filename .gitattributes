@@ -1,0 +1,15 @@
+# Normalize line endings per file type
+*.sh    text eol=lf
+*.py    text eol=lf
+*.cjs   text eol=lf
+*.js    text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.ps1   text eol=crlf
+
+# Binary
+*.png   binary
+*.jpg   binary
+*.pdf   binary

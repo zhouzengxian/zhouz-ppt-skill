@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Node (only for the optional playwright image-PDF script)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated deck output (users generate their own)
+output/
+*.pdf
+!assets/**/*.pdf
+!examples/**/*.pdf
+
+# Logs
+*.log
