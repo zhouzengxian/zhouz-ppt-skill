@@ -1,6 +1,6 @@
 # Examples
 
-这里存放示例，帮助你快速理解如何使用 Folded Starry Slide。
+这里存放示例，帮助你快速理解如何使用 zhouz-ppt-skill。
 
 ## 快速体验
 

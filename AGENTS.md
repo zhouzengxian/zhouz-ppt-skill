@@ -1,4 +1,4 @@
-# Folded Starry Slide — for OpenAI Codex
+# zhouz-ppt-skill — for OpenAI Codex
 
 > This is the Codex entry point. The full workflow + design spec lives in [`SKILL.md`](./SKILL.md).
 
@@ -11,7 +11,7 @@ A skill that turns Markdown / project docs / an agent answer into a **Folded Sta
 1. Add this folder to your project (git submodule or copy).
 2. Tell Codex:
 
-   > "Use the folded-starry-slide skill (AGENTS.md / SKILL.md) to turn docs/pitch.md into a slide deck + PDF. Put output in ./output/pitch/."
+   > "Use the zhouz-ppt-skill skill (AGENTS.md / SKILL.md) to turn docs/pitch.md into a slide deck + PDF. Put output in ./output/pitch/."
 
 3. Codex follows the 5-stage workflow in `SKILL.md`:
    - Plan slide outline from the source.

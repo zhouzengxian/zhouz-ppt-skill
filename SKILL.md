@@ -1,11 +1,11 @@
 ---
-name: folded-starry-slide
+name: zhouz-ppt-skill
 description: Turn Markdown / agent output into a "Folded Starry" (折叠星空美学) HTML slide deck, then export a paginated PDF. Use when the user says "做幻灯片/做 PPT/做路演稿/做路演 PDF/做演示文稿", names "折叠星空/折叠星空美学/Folded Starry", or asks to turn a .md / folder / URL into a browsable HTML presentation plus a distributable high-fidelity PDF.
 license: MIT
 version: 1.0.0
 ---
 
-# Folded Starry Slide (折叠星空美学)
+# zhouz-ppt-skill (折叠星空美学)
 
 A single-file, dependency-free HTML slide skill. Reads Markdown (or any agent answer), renders a **Folded Starry** dark deck — deep-space gradient + serif Chinese headlines + neon-pink/cyan accents + starfield + slow drift nebula glow — and exports a 16:9 paginated PDF. Works on CodeBuddy, Claude Code, Codex, CodeBuddy and any agent that reads markdown instructions.
 

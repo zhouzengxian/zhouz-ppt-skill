@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✦ Folded Starry Slide
+# ✦ zhouz-ppt-skill
 
 ### 折叠星空美学 · AI 幻灯片生成技能
 
@@ -19,7 +19,7 @@
 
 ## 这是什么
 
-**Folded Starry Slide** 是一套面向 AI 编程助手（CodeBuddy / Claude Code / Codex / CodeBuddy / 任何读 markdown 的 agent）的**幻灯片生成技能**。
+**zhouz-ppt-skill** 是一套面向 AI 编程助手（CodeBuddy / Claude Code / Codex / CodeBuddy / 任何读 markdown 的 agent）的**幻灯片生成技能**。
 
 给它一份 Markdown、一个文件夹、一个 URL，或一段 agent 回答，它会：
 
@@ -50,7 +50,7 @@
 
 把这个仓库放进你的项目，然后对 AI 说：
 
-> "用 folded-starry-slide 技能，把 `README.md` 做成一套折叠星空风格的幻灯片 + PDF，输出到 `./output/pitch/`。"
+> "用 zhouz-ppt-skill 技能，把 `README.md` 做成一套折叠星空风格的幻灯片 + PDF，输出到 `./output/pitch/`。"
 
 AI 会自动执行 5 阶段流程（规划 → 生成 → 预览 → 导出 PDF → 交付）。详见 [SKILL.md](./SKILL.md)。
 
@@ -82,10 +82,10 @@ bash ../scripts/export-pdf.sh . deck 8000     # macOS / Linux
 
 ### CodeBuddy / CodeBuddy
 
-把整个文件夹放到 `.codebuddy/skills/folded-starry-slide/`，它会自动读取 `SKILL.md`（带 frontmatter）：
+把整个文件夹放到 `.codebuddy/skills/zhouz-ppt-skill/`，它会自动读取 `SKILL.md`（带 frontmatter）：
 
 ```bash
-cp -r folded-starry-slide ~/.codebuddy/skills/folded-starry-slide
+cp -r zhouz-ppt-skill ~/.codebuddy/skills/zhouz-ppt-skill
 ```
 
 触发词：`折叠星空`、`做幻灯片`、`做PPT`、`做路演 PDF`、`做演示文稿`。
@@ -98,13 +98,13 @@ Claude Code 会自动读取 `CLAUDE.md`：
 # 项目级：直接把文件夹放进项目
 # 或作为 slash command：
 mkdir -p .claude/commands
-cp folded-starry-slide/SKILL.md .claude/commands/folded-starry-slide.md
-# 然后用 /folded-starry-slide 调用
+cp zhouz-ppt-skill/SKILL.md .claude/commands/zhouz-ppt-skill.md
+# 然后用 /zhouz-ppt-skill 调用
 ```
 
 ### OpenAI Codex
 
-Codex 会自动读取 `AGENTS.md`。把文件夹加入项目，告诉它 "用 folded-starry-slide 技能…" 即可。
+Codex 会自动读取 `AGENTS.md`。把文件夹加入项目，告诉它 "用 zhouz-ppt-skill 技能…" 即可。
 
 ### 其他 agent（Cursor / Windsurf / Cline / 任意支持 markdown 指令的）
 
@@ -222,7 +222,7 @@ iOS 微信用 PDFKit 渲染矢量 PDF 有已知 bug。用 **C 方案**（`fix-io
 ## 📁 项目结构
 
 ```
-folded-starry-slide/
+zhouz-ppt-skill/
 ├── README.md                 # 你正在看的
 ├── LICENSE                   # MIT
 ├── SKILL.md                  # 核心技能文档（CodeBuddy / 通用）

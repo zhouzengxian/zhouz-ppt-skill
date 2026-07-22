@@ -1,7 +1,7 @@
 #requires -version 5
 <#
 .SYNOPSIS
-  Folded Starry Slide - HTML deck to PDF exporter (Windows / PowerShell)
+  zhouz-ppt-skill - HTML deck to PDF exporter (Windows / PowerShell)
 .DESCRIPTION
   Uses Edge / Chrome headless mode to export a local HTML slide deck to a paginated PDF.
   Automatically handles:

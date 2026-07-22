@@ -1,4 +1,4 @@
-# Folded Starry Slide — for Claude Code
+# zhouz-ppt-skill — for Claude Code
 
 > This is the Claude Code entry point. The full workflow + design spec lives in [`SKILL.md`](./SKILL.md). This file just tells Claude Code how to use it.
 
@@ -13,17 +13,17 @@ Two options:
 ### Option A — Project-level (recommended)
 Copy this whole folder into your project (or add as a git submodule), then reference it. Claude Code auto-reads files named `CLAUDE.md`, so just point it at the skill when you need it:
 
-> "Use the folded-starry-slide skill (see CLAUDE.md / SKILL.md in ./folded-starry-slide) to turn README.md into a pitch deck + PDF."
+> "Use the zhouz-ppt-skill skill (see CLAUDE.md / SKILL.md in ./zhouz-ppt-skill) to turn README.md into a pitch deck + PDF."
 
 ### Option B — As a slash command
 Symlink or copy [`SKILL.md`](./SKILL.md) into your `.claude/commands/` directory:
 
 ```bash
 mkdir -p .claude/commands
-cp folded-starry-slide/SKILL.md .claude/commands/folded-starry-slide.md
+cp zhouz-ppt-skill/SKILL.md .claude/commands/zhouz-ppt-skill.md
 ```
 
-Then invoke with: `/folded-starry-slide`
+Then invoke with: `/zhouz-ppt-skill`
 
 ## How to use (workflow summary)
 

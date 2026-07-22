@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Folded Starry Slide - HTML deck to PDF exporter (macOS / Linux)
+# zhouz-ppt-skill - HTML deck to PDF exporter (macOS / Linux)
 #
 # Uses Chrome/Chromium headless mode to export a local HTML slide deck to a
 # paginated PDF. Vector PDF, fonts embedded, 16:9 pagination.
